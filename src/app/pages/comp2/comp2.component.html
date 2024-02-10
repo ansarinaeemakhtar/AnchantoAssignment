@@ -1,0 +1,8 @@
+<figure class="text-center">
+  <blockquote class="blockquote" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">
+    <p>{{'comp2.quote' | translate}}</p>
+  </blockquote>
+  <figcaption class="blockquote-footer" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">
+    <cite title="Source Title">{{'comp2.author' | translate}}</cite>
+  </figcaption>
+</figure>

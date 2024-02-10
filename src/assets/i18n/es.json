@@ -1,0 +1,40 @@
+{
+  "home": {
+    "title": "Página de inicio",
+    "heading": "Para qué se utiliza el sistema de navegación?",
+    "introduction": "Un sistema de navegación es un sistema informático que ayuda en la navegación. Los sistemas de navegación pueden estar completamente a bordo del vehículo o embarcación que controla el sistema (por ejemplo, en el puente del barco) o ubicados en otro lugar, haciendo uso de transmisión de radio u otra señal para controlar el vehículo o embarcación.",
+    "button": "Saber más"
+  },
+  "about": {
+    "title": "Acerca de la página",
+    "heading": "El cambio climático provocará megainundaciones en California",
+    "subTitle": "<p>Somos Ancanto, una pequeña pero motivada empresa especializada en navegación y envíos. Creemos apasionadamente en las grandes ofertas y el excelente servicio, por eso nos comprometemos a brindarle lo mejor de ambos.</p><p>Si estás buscando algo nuevo, estás en el lugar correcto. Nos esforzamos por ser trabajadores e innovadores, ofrecer a nuestros clientes algo que desean y poner sus deseos en la parte superior de nuestra lista de prioridades.</p>",
+    "button": "Contact us"
+  },
+  "footer": {
+    "rights": "Reservados todos los derechos"
+  },
+  "header": {
+    "menu": {
+      "item1": "Hogar",
+      "item2": "Acerca de",
+      "language": "idioma"
+    }
+  },
+  "comp1": {
+    "quote": "Mantén tu rostro siempre hacia la luz del sol y las sombras caerán detrás de ti.",
+    "author": "Walt Whitman"
+  },
+  "comp2": {
+    "quote": "Tomas una decisión: seguir viviendo tu vida sintiéndote confundido en este abismo de incomprensión de ti mismo, o encontrarás tu identidad independientemente de ello. Tú dibujas tu propia caja.",
+    "author": "Duchess Meghan"
+  },
+  "comp3": {
+    "quote": "Al final del día, no importa si esas personas se sienten cómodas o no con la forma en que vives tu vida. Lo que importa es si te sientes cómodo con ello.",
+    "author": "Dr. Phil"
+  },
+  "nointernet": {
+    "title": "La conectividad a Internet está interrumpida",
+    "message": "Por favor asegúrese de tener una conexión a Internet estable."
+  }
+}

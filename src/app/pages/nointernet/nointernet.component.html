@@ -1,0 +1,7 @@
+<div class="px-4 py-5 my-5 text-center">
+  <img class="d-block mx-auto mb-4 rounded" src="../../../assets/images/no-internet.png" alt="No internet">
+  <h1 class="display-5 fw-bold text-body-emphasis" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">{{'nointernet.title' | translate}}</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">{{'nointernet.title' | translate}}</p>
+  </div>
+</div>

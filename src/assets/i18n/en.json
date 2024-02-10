@@ -1,0 +1,40 @@
+{
+  "home": {
+    "title": "Home page",
+    "heading": "What is the navigation system used for?",
+    "introduction": "A navigation system is a computing system that aids in navigation. Navigation systems may be entirely on board the vehicle or vessel that the system is controlling (for example, on the ship's bridge) or located elsewhere, making use of radio or other signal transmission to control the vehicle or vessel.",
+    "button": "Know more"
+  },
+  "about": {
+    "title": "About page",
+    "heading": "Climate change will bring megafloods to California",
+    "subTitle": "<p>We are Anchanto, a small but motivated company specializing in navigation and shipment. We believe passionately in great bargains and excellent service, which is why we commit ourselves to giving you the best of both.</p><p>If you’re looking for something new, you’re in the right place. We strive to be industrious and innovative, offering our customers something they want, putting their desires at the top of our priority list.</p>",
+    "button": "Contact us"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "header": {
+    "menu": {
+      "item1": "Home",
+      "item2": "About",
+      "language": "Language"
+    }
+  },
+  "comp1": {
+    "quote": "Keep your face always toward the sunshine, and shadows will fall behind you.",
+    "author": "Walt Whitman"
+  },
+  "comp2": {
+    "quote": "You make a choice: continue living your life feeling muddled in this abyss of self-misunderstanding, or you find your identity independent of it. You draw your own box.",
+    "author": "Duchess Meghan"
+  },
+  "comp3": {
+    "quote": "At the end of the day, whether or not those people are comfortable with how you're living your life doesn't matter. What matters is whether you're comfortable with it.",
+    "author": "Dr. Phil"
+  },
+  "nointernet": {
+    "title": "Internet connectivity is disrupted",
+    "message": "Please make sure to have a stable internet connection."
+  }
+}

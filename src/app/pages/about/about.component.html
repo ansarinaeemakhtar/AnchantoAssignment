@@ -1,0 +1,12 @@
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold text-body-emphasis mb-3" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">{{'about.title' | translate}}</h1>
+  <img class="d-block mx-auto mb-4 rounded" src="https://picsum.photos/350/200" alt="Anchanto">
+  <h4 class="display-6 fw-semibold text-body-emphasis mb-3" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">{{'about.heading' | translate}}</h4>
+  
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''" [innerHTML]="'about.subTitle' | translate"></p>
+    <div class="d-grid gap-2 justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">{{'about.button' | translate}}</button>
+    </div>
+  </div>
+</div>

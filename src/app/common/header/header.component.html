@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript: void(0)" routerLink="/">Anchanto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''" href="javascript: void(0)" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{'exact': true}">{{'header.menu.item1' | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''" href="javascript: void(0)" routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{'exact': true}">{{'header.menu.item2' | translate}}</a>
+        </li>
+      </ul>
+
+      <div class="d-flex align-items-center">
+        <span class="me-2" [ngClass]="currentLanguage == 'ur' ? 'ur' : currentLanguage == 'ar' ? 'ar': ''">{{'header.menu.language' | translate}}: </span>
+        <select class="form-select" (change)="switchLang($event)">
+          <option *ngFor="let language of _translate.getLangs()" [value]="language" [selected]="language === _translate.currentLang">{{language}}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</nav>
